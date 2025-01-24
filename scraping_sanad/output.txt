@@ -1,0 +1,460 @@
+2024 | ISSUE 5| ARTICLE 1
+ORACLE: App Development Intern
+AUTHOR : Sanjay Rajakumar
+Stipend: 1,00,000
+Number of rounds : 4
+Number of Test Round  = 1
+Number of Interview Rounds = 2
+Number of HR Rounds = 1
+Round 1 (Online test):
+The online test had 2 online questions and around 10 MCQs. The first coding question was about passing a ball in a circle and finding where it ended, The second question was about logical operations (XOR I think). I got partials in both these coding questions. The MCQs were mixed with basic OS questions, debugging, aptitude, and English grammar/speaking. I did not have too much hope after the online round.
+Round 2 (Interview 1): 
+I was the first candidate for the interviewer. He started off with asking me to introduce myself and went on to go through my resume. He also opened my project and asked a few general questions about it. Later he went on to ask a DSA question. Starting with 1=A, 2=B so on and 27 = AA, 28 = AB so on, find the alphabet representation given a number. I misunderstood the question initially but then later went on to solve it with a stack. He then asked a bunch of general questions like where I see myself in 3 years, my plans for master’s, and my experience with projects and hackathons. I was pretty confident after this round.
+  
+Round 3(Interview 2):   
+The second round started off with a brief intro and he then went on to topics I knew. I was honest and said sorry to some of the topics he asked and then went on to ask a DSA question. The question was to find the largest possible chain from an array of strings where strings form a chain if the last character of a string
+matches the first letter of another string. Ex; ring-guy-year-ring form a chain. I started writing the solution immediately but realized that it did not work for many test cases.
+He moved on to a puzzle. There were three boxes with the following statements:
+Box 1: I have gold,
+Box 2: I have gold,
+Box 3: Box 2 has gold. There are 2 lies and 1 truth in these statements and only one of the boxes actually had gold. Find out which box actually has gold. This was pretty simple and I answered it. The next question was to find the element that repeated more than n/2 times in an array of n integers. I had to sort it and check for the elements using 2 iterations of binary search. I took some time but I got the answer. He also asked me some basic questions on Inheritance and overriding when I told him that I was familiar with OOPS.
+I wasn’t really confident after this round due to the DSA question.
+Round 4(Interview 3): 
+The interviewer was really nice and did not want to test me on normal DSA and puzzles. He asked me to give a intro and I mentioned that I have been working on DSA. He asked me what all data structures I knew and he was interested in graphs. He asked me to implement a pre-requisite checker for a set of jobs using
+graphs. I did not understand why I had to use graphs but he accepted my answer which was using an adjacency matrix. He then gave me a sheet of paper with C code and asked me to find the error. I
+did not catch the error exactly but my idea was correct. When he gave me a couple of hints I found out the error, and I feel like he was impressed by this. The next question was on how I would use OOPS to implement a cricket info app. He was expecting a different answer but then moved on to the next
+question. He later asked me about my experiences and I feel like he was studying my attitude.
+Tips: 
+a. I personally felt that the interviewers paid a lot more attention to my attitude and
+my honesty. They were really impressed whenever I expressed that I was ready
+to learn new things even though I wasn’t aware of certain topics.
+b. It’s always better to say NO rather than bluff and not answer questions based on
+the topics. Also, it is really important to be thorough with all the skills mentioned
+in your resume.
+c. PS, it really helps to be strong with DSA and various topics like OS, OOPS, and
+the basics of DBMS.
+Resources:
+a. Leetcode - I followed a series by Neetcode. It’s important to structure the questions you do and follow some sort of roadmap.
+Others
+I understand how overwhelming the preparation and interview process can be but it’s important to just hang on and keep trying your best. These interviews often require a combination of luck and preparation. Just keep trying and luck will definitely come by.
+2024 | ISSUE 5| ARTICLE 2
+ORACLE: Technical Staff Intern
+AUTHOR : Arshiya Hafis
+Stipend: 1,00,000
+Number of rounds : 4
+Number of Test Round  = 1
+Number of Interview Rounds = 2
+Number of HR Rounds = 1
+Round 1 (Online test):
+The first round was an online test round wherein we were asked 2 coding questions and
+around . The first coding question was about passing a ball in a circle and finding where it ended. For others the question was : Given two arrays,to check whether we can convert them in
+such a way that the value at corresponding indexes of both the arrays are equal, if we are
+allowed toswap values between the two arrays. The easy question was based on
+strings.The second question was an easy question which included XOR operation. I got
+both these coding questions.next section included several questions on aptitude, grammar ,maths and logical reasoning.
+Around 40 students were shortlisted for the role.
+Round 2 (Interview 1): 
+The second round was an online interview round. My second round lasted for maximum 20 mins. The interviewer asked me to introduce myself and went on to my resume. Since my expertise was backend and web development, I had written extensively about it in my resume. And hence fortunately I was asked about it to. He asked what my favourtie programming language was and proceeded to question my knowledge on that. My respnse was python and he asked me questions on random module in python, and then he asked about dictionaries and asked about other data structures in python. Later he proceeded to ask about my projects. I had faired good in explaining what it was about, and was also able to answer any question thrown at me about the frameworks as well. He even asked about my positions held in the college. 
+About 13-14 of us got in Round 3
+  
+Round 3(Interview 2):   
+After that I was asked to wait for about 1, 1 and a half hours, and to be really honest I had given up on my interview, thinking that maybe I hadnt made it to the 3rd round. But yup, I waited and they gladly called me for Round 3. In this roung I was asked a programming question on arrays, and my nervousness got the best of me and I couldn’t answer it. But upon telling him that I was stuck, he helped me and we solved it together. Later again my Resume was searched thoroughly and he asked me about my DBMS knowledge and whats the difference between relational and non-relational databases, and about sqlite and about oracledbs and asked about my projects.
+About 8-9 of us got in Round 4
+Round 4(Interview 3): 
+Round 4 was HR round, to which I was asked behavioural question as well as about the current tech trends. I was asked how would I manage a rude boss, and how would I manage a tem mate who wasn’t cooperative. Later he asked me how I manage to stay up to date with the latest trends in Technology and would I be open to learn new softwares 
+Tips: 
+● Make sure to know your resume well. Do not and I repeat DO NOT write anything you don’t know
+about in your resume 
+● You don’t have to strong in DSA, you have to know the basics well though. 
+● If your DSA isnt strong make sure to be well versed in any other domain, and do state it in your
+resume so that your interview would be directed towards that domain. 
+● It is not necessary that your interviewer would expect you to know everything, so you can always
+say that you don’t know or you need help.
+2024 | ISSUE 5| ARTICLE 3
+SERVER TECHNOLOGY INTERN
+AUTHOR : ABEL MANI ROY
+Stipend : 1,00,000 
+Number of rounds: 4
+ Number of Test Rounds =  1
+ Number of Interview Rounds =  4
+ Round 1:
+The online test consisted of 2 coding questions and around 10 mcq
+questions. One of the coding questions was of easy level and the other
+was medium level. The medium question was : Given two arrays, we have
+to check whether we can convert them in such a way that the value at
+corresponding indexes of both the arrays are equal, if we are allowed to
+swap values between the two arrays. The easy question was based on
+strings. The MCQ questions were aptitude based consisting of distance-
+time questions, maths, percentages, etc.
+SHORTLISTED:
+SERVER TECHNOLOGY: 31
+APPS: 25
+APPS WAITLIST: 8
+        Round 2:
+Very chill interview spanning 20 to 30 minutes. I was asked to introduce
+myself and he asked me a few follow-up questions. The interview was
+centred on my resume and he went through each of my projects, asking
+me to explain it. He did not get deep into the technical side of the projects
+and just wanted to know how I developed it, and how I planned to improve
+it. I was asked an easy coding question: “Given a string of lowercase
+letters, find the vowels among them and reverse their order. Eg: hello
+becomes holle”. I wrote the answer in python on paper and explained the
+logic. He asked me to code it in VSCode on his laptop and run it. At the
+end of the interview, he also asked me a few HR questions like how will I
+deal with my work if it starts getting repetitive and I don't get new
+challenges.
+        Round 3: 
+This round lasted around 25 minutes and also involved a thorough
+discussion of my resume and the technologies I used in building those
+projects. SInce I used APIs in my project, I was asked a few questions
+about them. He asked me about the different types of APIs, what I knew
+about each of them and the types of errors that can occur while using
+REST APIs. He also asked me about HTML status codes. I was asked if I
+knew JAVA since I did not list it in my resume, and he followed it up with a
+few questions on exceptions and threads in JAVA. He asked me an easy
+DSA question, to implement a stack using any other data structure. I
+implemented it using 2 queues and I had to explain my logic and show how
+it works on a few given test cases. We had a long conversation about
+working at Oracle, what they do and the skills required at the company. At
+the end, I asked him about Oracle Middleware and we talked about it
+solely for 5 minutes.
+Round 4: 
+This was completely an HR round. The interviewer was very chill and the
+entire round was more like a conversation. He went through my resume,
+asking me about the teams and committees I had been in. He asked me
+some situation based HR questions and we discussed a lot on a
+hierarchical model within a team. I was asked to give an example of a
+technology I would build which would be used in my daily life and also
+another one that could be used in any of my non-technical interests. He
+asked a few usual HR questions like “ Why Oracle?”, “What do you expect
+from the job?”,etc. This round also lasted around 30 minutes.
+  
+Tips:
+● Research a lot on the company: what they do,what their products are and
+prepare a good non- cliche question to ask the interviewer
+● Keep conversing with the interviewer. During the interviews, you will enter
+a large span of topics which you might not be expected to know in depth
+like cloud computing, Cloud services, etc, but having a general idea on it
+helps.
+● Know your resume inside out. In addition to knowing the technical aspects,
+be confident in explaining your project to the interviewer.
+● For the assessment tests, practise a few general aptitude questions like
+distance-time, simple and compound interests, work done, discounts,etc. A
+little practice and you can easily crack all of them.
+● Practice interview coding questions on geeksforgeeks (Yes, they do
+repeat).
+Resource :
+● https://www.geeksforgeeks.org/
+● https://leetcode.com/
+● https://www.indiabix.com/aptitude/questions-and-answers/
+2024 | ISSUE 5| ARTICLE 4
+Applications Intern
+AUTHOR : Shelly Anissa
+Stipend : 1,00,000 per month
+Number of rounds: 3
+ Round 1:
+It was a casual round, the questions being mostly focused on my
+resume. I was asked to write the code to perform an email validation in
+javascript. It was followed by some relatively easier questions about
+machine learning as there was mention of it in my resume. Questions
+such as what algorithm would be best in clustering the data into four
+groups, what activation function is applied on the output layer of
+classification deep learning networks, about partitioning data into train,
+test and validation splits. Nothing much was asked from DBMS as I had
+informed beforehand that I was not quite familiar with it. Very few
+questions were from the DSA side. I was asked about different tree data
+structures. To conclude I was asked to write the code to print the pattern
+of an inverted cone.
+        Round 2:
+I was asked to code the solution to classic problems such as finding a
+loop in a linked list, random number generator and two sum. Some
+questions from OOPS followed. The diamond problem, definition of
+virtual method, abstract class being some of those.I wasn’t able to
+answer all of those. From there on it was solely behavioural questions
+along the lines of what my biggest challenge as a programmer was, how
+I would manage a teammate who is not contributing etc.
+        Round 3: 
+He inquired in detail about my projects. Subsequently there were a lot of
+HR questions. How I would handle situations such as a team member
+dropping out of the team, a deadline that has been pushed forward,
+managing a position that requires an authoritarian attitude. Other
+questions included what my biggest achievement was, what I would
+have done had I not got that, my biggest breakthrough movement, my
+strengths and flaws, innovative ideas I have come up with etc.
+  
+Tips:
+Avoid exaggerating your skills in resume.
+Be frank in admitting answers to questions you do not know
+Prepare beforehand on what you would say if asked to describe
+yourself, your biggest ordeal, how you overcame it etc..
+Skim through the mostly asked interview questions. They do ask the
+exact same questions from before and it is expected of you to answer
+that.
+2024 | ISSUE 5| ARTICLE 5
+Applications Intern
+AUTHOR : Diljith P D
+Stipend : 1,00,000 per month
+Number of rounds: 5
+ Number of Test Rounds =  1
+ Number of Interview Rounds =  3
+Number of HR Rounds =  1
+ Round 1:
+• We were asked 2 coding questions, along with questions on logical reasoning,
+and English proficiency.
+• I was able to solve one out of the 2 coding questions (both of which were
+array problems of upper medium level).
+• There was no negative marking, and the rest of the questions were solvable
+with 12th grade mathematics and aptitude.
+        Round 2:
+• The interviewer was really friendly and started off with asking me to introduce
+myself, which I did and I casually steered the conversation to my projects, as I
+was much more confident in it than DSA.
+• He asked me to elaborate a bit on the projects that I did (both of which were
+AI focused)
+• He then moved on to ask me a simple sliding window question which was to
+find the length of the longest substring with at most 2 distinct letters, and
+asked to me write down the pseudocode for it as well.
+• After I solved that, he asked me a variation of the Einstein houses riddle which
+I was only able to solve partially, so he let it slide.
+• I was also asked about BSTs and how insert and deletion is done, given an
+array of numbers to insert, and asked me to write down the pseudo code for
+inorder traversal.
+• He then talked to me a bit more about cloud computing and the hosting
+methods which I used to host my projects.
+        Round 3: 
+• The second interview went in a similar way to the first, but was a bit more DSA
+focused.
+• It started of with me introducing myself, and him asking a small puzzle.
+• Then he asked me how I’d implement an autocomplete feature, i.e., an
+algorithm that can suggest a few words given the first few letters. I suggested
+a Trie based approach and it seemed to be what he wanted. I was also asked
+to write down the pseudocode.
+• The next question was an array generation problem. The problem went as
+such:-
+1. You’re given 2 arrays with repeating elements.
+2. Let’s assume a number repeats x times in array 1, and y times in array 2
+3. You are to create a third array in which this number repeats max(x, y)
+times.
+4. If the number is present in only one of the arrays, it should repeat the
+same amount of times.
+• I took a few seconds to think about the question, and to clarify I asked him
+about the time & space complexity he expected and he said there is no
+limitation and I can suggest what I feel is right.
+• At first, I suggested a hash map to store each count of the letters and he didn’t
+seem pleased with it, so I thought a bit more and suggested a binary search
+with two pointer approach. At first he thought I did it wrong, but as I explained
+it again, he accepted my solution.
+• The interview ended with him asking if I had any questions, to which I asked
+what tech stack that would be used and what the common roles of interns will
+be, to which he replied that Application interns would be more involved with
+CRM than their Server Tech counterparts, and that we would be using Java for
+almost all our services.
+Round 4: 
+• This round too was a technical round in which I was asked questions from
+literally every topic.
+• It started off with my introduction again, and the interviewer seemed to be
+interested in my projects, much more than the previous rounds. He asked me
+a lot of questions, about what I used to create the projects, when I started
+learning about AI, and a lot of other things.
+• He then told me a bit about Oracle’s upcoming roles in AI as well.
+• He then proceeded to the question, the first one was to debug a C code, which
+I suggested a solution, but it turned out not to be completely correct, but he
+accepted it.
+• He then asked me what I know about SQL, and I told him about the use of it
+inside my projects and my current knowledge level. He asked me a simple
+question on joining 2 tables, and I wrote down the answer, he then proceeded
+to ask a bit more about SQL which even he didn’t expect me to answer.
+• Then he asked me a simple DSA question which was to delete the repeating
+elements from a sorted linked list, which I suggested a two pointer approach
+and he accepted
+• He then asked a OOPS question which was to implement a cricket score
+tracking application, which when score gets updated, updates not just the
+overall match score, but also the players individual scores as well. I suggested
+a solution which he said was not the most optimal and scalable but was good
+enough.
+• This interview also ended with him asking for any questions, to which I asked
+more about the AI partnership he mentioned, and if an intern would be given
+any AI related projects, to which he assured me there are chances, but it
+depends on a lot of other factors as well.
+Round 5: 
+ • This round lasted just 5 minutes, with the HR, who asked me about how the interview was, and any   complaints that I had (except for the fact that the whole process lasted 12 whole hours), which I   replied well apart from that, I had no complaints and most of the doubts that I had were     answered by the previous interviewers.
+• Out of us 25 interviewed for applications, 5 were finally selected.
+  
+Tips:
+a. Practice a lot of leetcode medium problems, preferably follow a question sheet like
+neetcode ( I’ve linked below )
+b. Most of the puzzles and logical questions that were asked came directly, or were slight
+modifications, from the gfg, so do refer them.
+c. Don’t boast on your resume, as most of the interviews were based on our skills, and
+don’t mix up knowing SQL from school with DBMS, as oracle is a SaaS company and they
+will drill you with DBMS questions if you say you know it.
+d. Either have a good array of projects which you can talk a lot about and answer their
+doubts and questions, or be really thorough with DSA, as from the experience of those
+with me, those without a lot of projects were asked much harder DSA problems than
+those with projects.
+Resource :
+a. www.geeksforgeeks.org/puzzles/ 
+b. https://neetcode.io/practice
+2024 | ISSUE 4| ARTICLE 6
+ ORACLE: SERVER TECHNOLOGY ENGINEER 
+AUTHOR : RITHIKA KATHIRVEL 
+Stipend: 1,00,000 per month
+Number of rounds : 3
+Number of Test Round  = 1
+Number of Interview Rounds = 2
+Round 1:
+The first round was an online test round wherein we were asked for four sections. The first section of the test included basic English questions like subject-verb agreement, reading comprehension, and vocabulary-based questions. 
+The second section of the test included basic mathematical aptitude questions like distance, averages, and probability-based questions. 
+The third section was based on OOPS and basic database management systems. 
+The four sections had MCQs based on BSTs, AVL Trees, and arrays. We had a negative 0.25 for every wrong answer. Overall, the test covered basic English, mathematics, and programming concepts. Revising DSA, the basics of DBMS, and OOPS will help a lot. Around 40 students were shortlisted for the role.
+Round 2:
+The second round was an online interview round. My second round lasted for 35 mins. The interviewer asked me to introduce myself and went on to my resume. He asked me about a project on JavaScript and resources management using OOPs. He asked me to explain the overview of my projects and why I chose the same. He also asked me why I didn't host my website. To conclude my second round, the interviewer asked me a basic time and distance puzzle to which I explained my approach first and then gave the answer. Overall, the second round was mostly around my resume so be sure of what you mention.
+Round 3:
+After the second round, I had to wait around 15 mins for round 3 which lasted for around 45 mins. The second interviewer again started with the project and asked me how I implemented certain functions. He went on to question me on the basic data structures and gave me an array of questions to solve. He didn't expect me to code it but I had to open Notepad and explain my logic. I started with the brute force approach and then went on to optimize the same. He was satisfied with the answer and asked me other coding questions. I explained the logic and coded the function on Notepad. He didn't ask me to optimize my solution. He asked me if I had any questions for me to which I asked basic prepared questions like what do you expect from an intern in your team etc. After round 3, I was told I’m done for the day and they will let me know the results through TnP. A few people had 4 rounds of interviews but I didn't have a HR round. 
+Finally, 9 of us were selected for the role of Server Technology engineer, and by gods grace, I was one of them.
+TIPS:
+●  Prepare answers for questions like tell me about yourself, where does your interest lie in the field of CS
+●    Do a lot of leetcode and puzzles. It's never too late to start.
+●      You can tell the interviewer if you’re stuck or have no idea about what he is asking. They usually help you and it's    absolutely ok to ask for some time to come up with a logic for coding questions.
+●      Gfg and interview bits help. Read through them for basic OS, DBMS, and OOPs concepts. Also, be thorough with S4   subjects and your project.
+●    Have an open mind and interact positively with the interviewer.
+2023 | ISSUE 4 | ARTICLE 7
+ORACLE: APPLICATION DEVELOPER
+AUTHOR : KAKARA KARTHIKEYA 
+Stipend: 1,00,000 per month
+Number of rounds : 4
+Number of Test Round  = 1
+Number of Interview Rounds = 3
+ROUND 1:
+It was a proctored online test that was held on their own platform. We have to solve around 80 questions in 100-110 minutes.
+Questions were divided into different sections and each had their own time limit. It comprised of Logical reasoning, Contextual communication, and General aptitude and OOPS, DBMS, OS, and DSA. OOPS questions were in JAVA. So, it’s better to have a basic idea of Java.
+No negative marking.
+ROUND 2:
+This was the first interview round. Due to some network issues, there’s a delay from my side. The interviewer was so friendly. He stayed all the time and he gave me some time to settle things up and asked me to cool down.
+It started with an introduction about himself and then the question “Tell me about yourself.” and then a dive into Resume.
+Since I mentioned some projects, there was a detailed discussion on them.
+He then asked what I know about the company.
+He then asked me about the Hourglass puzzle (Puzzle 27 | (Hourglasses Puzzle) - GeeksforGeeks). As far as I can remember, I was asked another puzzle too.
+He asked some basic questions on OOPS.
+After that, Interviewer asked me to open a text editor. He then gave the basic LeetCode questions – Two sum, 3 sum. He then asked me about a problem on BSTs.
+I just need to show my code and explain it and there isn’t any need of running it.
+At last, He asked me if I was having any questions for him. I asked him about his role and work environment.
+ROUND 3:
+This round was mostly on OOPS. It started with the conceptual questions. He then asked me to open a text editor and asked me to implement some questions related to that. This discussion lasted for 15-20 mins.
+He then asked me the “Find the fastest 3 horses” puzzle (Puzzle 9 | (Find the fastest 3 horses) - GeeksforGeeks). I was correct up to a point, but the interviewer pushed me to solve the question. He helped me to answer it.
+He then asked me a typical popular LeetCode question (I don’t remember that). It was a sorting problem. As I practiced mostly from LeetCode during preparation, it helped me during these interviews.
+ROUND 4:
+This round started with a series of HR questions. It’s better to prepare beforehand so that you don’t fumble with your words.
+He then asked me if I know any who is currently working in Oracle and what he/she said about their work experience in Oracle.
+The interviewer was really friendly. He noticed that I’m feeling tense. He asked me to turn off my cam and cool down.
+And finally small problems – Factorial and Fibonacci series.
+With this the interview ended. This round was around 15 mins.
+ 
+TIPS:
+BLUFF.
+BE CONFIDENT.
+If you don’t know …accept it. The interviewer will help you.
+Speak out what you have inside.
+Practice on LEETCODE.
+Be prepared with all the OOPS, DBMS concepts.
+Make sure you are well-versed with all the DSA concepts.
+Look up puzzles from Geeks for Geeks.
+Practice HR questions. Be confident to face it.
+Make sure you have an idea about the company like what does it do… Etc.
+2023 | ISSUE 4 | ARTICLE 8
+ORACLE : SERVER TECHNOLOGY INTERN
+AUTHOR : Varikuti Sudhir Reddy 
+Stipend: 1,00,000 per month
+Number of rounds : 4
+Number of Test Round  = 1
+Number of Interview Rounds = 3
+Round 1:  ONLINE TEST
+This was the only online test that we had. The test was divided into 5 parts where they asked MCQs regarding aptitude, English skills (Comprehension, grammar, etc.), and various CS topics. There were a lot of questions focused on all kinds of trees including binary trees and AVL trees. They also asked many questions regarding various HTTP status codes where you had to choose an appropriate one for the scenario mentioned. Some of the questions were lengthy and the time was extremely limited, so I had to guess some of the questions at the end. They followed a similar format last year too. So, I would recommend focusing on these topics mentioned (in Geeks4Geeks or something) and not wasting time during the test.
+ 
+Final Shortlist
+1.  ST – 40
+2.  APPS – 30
+ 
+Round 2: FIRST INTERVIEW
+He started asking me questions regarding Computer Networks like what is a router, switch, and IP address and so many questions which I mostly have not answered or answered very vaguely about what I know about them since we learn about them in semester 6. I told him that these are not yet completed for us and that he just wanted to know what I know about them. In this part mostly he answered himself and I listened. Next, he asked a coding question
+https://dev.to/kavitagupta972/hackerrank-coding-challenge-3p5j
+ 
+I was not able to solve it completely but I explained brute force and a bit of improvement for that. Then he asked me to explain the project I wrote in my resume and asked a few basic questions (This helped me to kill some time). Most of the time he is very interactive and made me comfortable. Mainly I did not understand whether he is satisfied with my answer or not.
+ 
+Round 3: SECOND INTERVIEW
+I did not expect I would be qualified for the next round but I was. This round was good mostly I answered all questions. The interviewer started asking me so many basic C language questions. 
+Then he asked me a simple puzzle https://www.geeksforgeeks.org/puzzle-3-calculate-total-distance-travelled-by-bee/
+Then he asked me to write code to find the second last element in LinkedList.
+ 
+Round 4: FINAL INTERVIEW
+This round was almost totally HR for most of the people (5- 10 mins). But for me, it was about 30 mins. 
+He thoroughly went through my resume and touched each and every part of it (like skills, and projects). He spent so much time on my resume (Be careful with what you write)
+Apparently, I felt he is not satisfied with my project (he felt they can easily be done). 
+He asked me a coding question
+https://LeetCode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+I haven’t done this in LeetCode before, so I took time to solve it and he helped me to optimize the brute force method. He finally asked me a coding question - Detect loop in LinkedList.
+ 
+ 
+Tips:
+Keep coding throughout the vacation, one or two problems a day from hacker rank or LeetCode.
+Ensure that you have a project mentioned on your resume (that helps to kill time, but also be thorough with what you have written)
+Take your time to answer questions during interviews, don’t blurt out answers if you aren’t sure of it. Make it very interactive.
+Do some research about the company and its motto before going to the interview.
+2023 | ISSUE 4 | ARTICLE 9
+ORACLE: APPLICATION DEVELOPMENT 
+AUTHOR : Divya Krishnan 
+Stipend: 1,00,000 per month
+Number of rounds : 4
+Number of Test Round  = 1
+Number of Interview Rounds = 3
+The interview rounds were online.
+Round 1: Online test
+The test was MCQ based. It had different sections and each section was timed. It had a range of questions from different topics like DSA, DBMS, Operating Systems, aptitude, general English, grammar, etc. 
+The most important part to be taken care of during this test is time management.
+ Round 2: Technical round
+The interviewer asked me to share my screen and open an online compiler. He asked me a few coding questions. The questions were mostly based on strings and arrays. The interviewer also asked a few theoretical questions. The last question he asked me in this round was to design an algorithm for a problem that he gave. He was really friendly. I remember him asking me to cool down seeing my anxiety!
+Round 3: Technical round
+The interviewer asked me to code linked list operations. I had to write an entire program that involved insertion and deletion at different positions of the linked list, reversal, etc. A few questions on BST were also asked.
+ 
+Round 4: Mix of Technical + HR round
+A logical question was asked, and I was asked to code. He asked me about the projects which I had done earlier. He also asked me whether I had done any group projects before, to which my answer was no. He asked a few questions about my general interest in computers and the reason why I wish to join Oracle.
+ 
+ 
+TIPS:
+ 
+DSA is the key. Try practicing as many questions as possible. 
+Since the interview was online, we had to show our rough work through the camera. 
+Theoretical questions were mostly from OS, DBMS, and DSA. Don’t be overstressed. 
+Even if you are not able to get the exact solution, try sharing your thoughts and ideas with the interviewer. They may guide you and help you with their ideas. 
+Be confident. Believe in you and your efforts. 
+They may ask questions about the projects you mention in your resume. So it is important to have good knowledge about them before going for the interview. 
+Refer to GFG and other related sites for company-specific questions. 
+Interview diaries proved to be helpful during my preparation.
+ 
+2023 | ISSUE 4| ARTICLE 10
+ORACLE: MEMBER OF TECHNICAL STAFF 
+AUTHOR : Aaron Joseph
+Stipend: 1,00,000 per month 
+Number of rounds : 4
+Number of Test Round  = 1
+Number of Interview Rounds = 3
+Round 1 (Test):
+4 groups of Qs - 1 - English 2 - Aptitude 3 - Engineering Qs which include prob and math Qs 4 - CSE concepts like OS, OOPS, DBMS, AVL Trees
+Round 2 (Interview 1): 
+Very chill interviewee, who started by asking about my current CGPA, then he went through my resume and asked questions from each section, and it felt like giving an elaborate introduction as I explained it. He then asked a string question where it’s a string containing characters only in lowercase and can have duplicates. The output should print all the positions of unique characters (that have no repetitions) and print the first unique character in the string. He asked me to write the pseudocode on a notepad and share the screen.
+  
+Round 3(Interview 2):   
+She started by asking me to introduce myself and then wanted to know "Why Oracle?". She started by asking which language I am most proficient with, and then gave me a simple probability question - You have 3 friends in Calicut and I am in Delhi, the probability of one telling the truth is 2/3 and a lie is 1/3, so find the probability that it is actually raining in Calicut. Then she gave me a Hackerrank link which had a SQL question (because I had mentioned it on my resume) and one question on a string to remove "k" consecutive repetitive letters from the string, such that the final string returned has no "k" consecutive letters. 
+Round 4(Interview 3): 
+The third and final round started with explaining my project mentioned in the resume and I had to convince him how it worked and what would each part of the project do. Then there was one linked list question where I had to find the (n-7)th node by traversing only once. In the end, he asked a puzzle - There are 10 bags where each contains 'n' nodes, out of which 9 bags have coins weighing 1gm and one bag has coins weighing 0.9gms. We have a weighing scale on which we can put any combination of bags only or coins only or mix, but we can check the weight on the scale only once, not more. I have never seen this puzzle before but I got it, and it can be found in geeks4geeks. - https://www.geeksforgeeks.org/puzzle-bag-of-coins/.
+Tips: 
+Make a plan at the beginning of the vacation, and try to follow it as much as possible. I was trying my best to complete 5 Leetcode questions every day, including 1 Easy, 2 Medium, and 2 Hards (This one was really tiring to complete so would often end up doing only one hard a day). Choose a language early on and stick with it don’t keep shifting since you need good practice in one, plus doing a project in that language would also help. Next on the list would be doing theory subjects belonging to S5. Learn about operating systems, DBMS, Object-oriented programming, and computer networks (from Geeksforgeeks and Youtube) and revise S4 theory topics. Towards the end when time permits, topics which you feel you are weak in DSA can be practiced by taking Qs from the LoveBabbar excel sheet. 
+Resources:
+Neetcode
+LoveBabbar – 450 Q Excel sheet
+Gatesmashers – YouTube
+GeeksforGeeks – Concept clarification and interview questions based on each company.
+Javatpoint – something our seniors gave but didn’t use much it has interview Qs based on companies like Geeks4Geeks.
+Head on to ORACLE 2022 for more articles
+The content in the website is subject to copyright and should not be reproduced in any format without the consent of the authors. 
+Feedback can be directed to csea@nitc.ac.in
