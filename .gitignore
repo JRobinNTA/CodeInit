@@ -2,6 +2,7 @@ Scrape/output.json
 Scrape/output.txt
 Scrape/codinitscrape/cookies.json
 Scrape/spider_log.txt
-RetrievalAugmented/data/*.pdf
-RetrievalAugmented/data/*.txt
-RetrievalAugmented/chroma/*.sqlite3
+RetrievelAugmented/data/*.pdf
+RetrievelAugmented/data/*.txt
+RetrievelAugmented/chroma/*
+venv
