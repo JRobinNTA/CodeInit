@@ -17,6 +17,7 @@ response = requests.get(url, cookies=cookie_passer)
 soup = BeautifulSoup(response.content, "html.parser")
 text = soup.find_all('p')
 links = soup.find_all('a', href=True)
+# print(links)
 
 text_content = "\n".join([element.get_text() for element in text])
 
