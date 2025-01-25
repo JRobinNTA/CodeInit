@@ -3,7 +3,7 @@ Interview Diaries Assistant. This repo is built as an answer to the statement "Y
 
 # Chunkychunks.py
 This code processes a text file containing interview experiences and splits them into individual sections based on specific header patterns. It validates and cleans 
-the extracted chunks to ensure proper formatting. 
+the extracted chunks to ensure proper formatting.\n 
 1 *Chunk Splitting*- Detects headers using flexible regular expressions.- Handles both supported formats:
   - `YYYY | WEEK X | ISSUE Y`
   - `YYYY | ISSUE X | ARTICLE Y`
