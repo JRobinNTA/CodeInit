@@ -25,6 +25,22 @@ It writes the processed data into another file and performs further analysis suc
 -> *Additional key feature* - Structured Data Extraction
     - Uses `treat_data` to convert raw text into structured JSON for better usability
 
+# JstoRag.py
+[1. Reads the input file.
+2. Calls `split_interviews` to extract chunks.
+3. Validates the chunks using `validate_chunks`.
+4. Returns the processed chunks or an empty list in case of errors]
+
+# midway.txt
+This document contains the details of all the interviews listed on the "Interview Diaries" site. Every interview includes pieces of information regarding the offering company, recruitment role, no. of rounds in the whole process, details regarding each round, and many more. When the user inputs some prompt to the LLM model, it returns sorted info  from this whole information, as per the specific prompt given by the user.
+
+# output.txt
+Similar to midway.txt
+
+# rag.py
+This Python script facilitates document processing and integrates with ChromaDB, a vector database, for storage and query operations. It supports resetting the database, processing documents, splitting them into smaller chunks, and querying the database for specific information. The script is designed for extensibility and ease of use.
+
+
 
 
 
