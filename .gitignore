@@ -6,3 +6,5 @@ RetrievelAugmented/data/*.pdf
 RetrievelAugmented/data/*.txt
 RetrievelAugmented/chroma/*
 venv
+PreProcessor/output.json
+CodeInit-sanad
