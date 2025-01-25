@@ -65,6 +65,9 @@ def initialize_chroma(embeddings):
 
 def load_documents():
     """Load all txt documents from the DATA_PATH directory"""
+    if not os.path.exists(DATA_PATH):
+        raise FileNotFoundError(f"Data directory not found at: {DATA_PATH}")
+    
     loader = DirectoryLoader(
         DATA_PATH,
         glob="**/*.txt",
@@ -131,6 +134,27 @@ def clear_database():
         print(f"🗑️ Database cleared at: {CHROMA_PATH}")
     else:
         print("⚠️ Database not found. Nothing to clear.")
+
+def query_search(query_text: str):
+    """
+    Search the database with a query string.
+    Args:
+        query_text (str): The text to search for
+    """
+    # Initialize ChromaDB
+    embeddings = embedding_functions.DefaultEmbeddingFunction()
+    db = initialize_chroma(embeddings)
+    
+    # Run query
+    print("🔎 Running Query:", query_text)
+    results = db.query(
+        query_texts=[query_text],  # Note: needs to be a list
+        n_results=15
+    )
+    
+    # Print formatted results
+    print_results(results)
+
 
 if __name__ == "__main__":
     main()
