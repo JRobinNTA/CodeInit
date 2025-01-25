@@ -12,4 +12,20 @@ the extracted chunks to ensure proper formatting.
                   - Prints meaningful error messages
 4 *Year Distribution Analysis*- Extracts and counts the year of each interview for reporting.
 
+# Dataprep.py
+It writes the processed data into another file and performs further analysis such as year distribution. The `treat_data` function is used to extract structured information from each chunk
+1. Reads the input file `output.txt`.
+2. Processes the file using `process_interview_file`.
+3. Prints details about each interview chunk, including:
+   - Header.
+   - Content preview.
+   - Chunk length.
+4. Writes each chunk to a new file `midway.txt`.
+5. Prints year distribution across all interviews.
+6. Calls `treat_data` on each chunk for further data processing
+-> *Additional key feature* - Structured Data Extraction
+    - Uses `treat_data` to convert raw text into structured JSON for better usability
+
+
+
 
