@@ -154,6 +154,7 @@ def query_search(query_text: str):
     
     # Print formatted results
     print_results(results)
+    return str(results)
 
 
 if __name__ == "__main__":
