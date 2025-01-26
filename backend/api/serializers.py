@@ -19,10 +19,12 @@ class SkillSerializer(serializers.ModelSerializer):
 
 class UserPortfolioSerializer(serializers.ModelSerializer):
     skills = SkillSerializer(many=True)
+    username = serializers.CharField(source='user.username', read_only=True)
 
     class Meta:
         model = UserPortfolio
-        fields = ('name', 'age', 'roll_number', 'branch', 'skills')
+        fields = ('user', 'username', 'year', 'branch', 'skills')
+        read_only_fields = ('user', 'username')
 
     def create(self, validated_data):
         skills_data = validated_data.pop('skills')

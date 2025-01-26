@@ -9,11 +9,14 @@ class Skill(models.Model):
 
 class UserPortfolio(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    name = models.CharField(max_length=100)
-    age = models.IntegerField()
-    roll_number = models.CharField(max_length=20)
+    username = models.CharField(max_length=150, blank=True)
+    year = models.CharField(max_length=10)
     branch = models.CharField(max_length=100)
     skills = models.ManyToManyField(Skill)
 
+    def save(self, *args, **kwargs):  # Add this method
+        self.username = self.user.username
+        super().save(*args, **kwargs)
+
     def __str__(self):
-        return f"{self.name}'s Portfolio"
+        return f"{self.user}'s Portfolio"

@@ -31,9 +31,7 @@ curl -X PUT $BASE_URL/portfolio/ \
      -H "Authorization: Token $TOKEN" \
      -H "Content-Type: application/json" \
      -d '{
-           "name": "John Doe",
-           "age": 22,
-           "roll_number": "CS2021001",
+           "year": 22,
            "branch": "Computer Science",
            "skills": [
              {"name": "Python"},
