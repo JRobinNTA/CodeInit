@@ -1,46 +1,183 @@
-# CodeInit
-Interview Diaries Assistant. This repo is built as an answer to the statement "Your challenge is to build an end-to-end Scraping and Advice System that empowers students to make informed decisions by leveraging data from "Interview Diaries."
+# Django REST Framework API
 
-# Chunkychunks.py
-This code processes a text file containing interview experiences and splits them into individual sections based on specific header patterns. It validates and cleans the extracted chunks to ensure proper formatting
-1. *Chunk Splitting*- Detects headers using flexible regular expressions.- Handles both supported formats:
-  - `YYYY | WEEK X | ISSUE Y`
-  - `YYYY | ISSUE X | ARTICLE Y`
-2. *Validation*- Ensures all chunks conform to the expected header format.
-3. *Error Handling*- Catches exceptions during file reading and processing.
-                  - Prints meaningful error messages
-4. *Year Distribution Analysis*- Extracts and counts the year of each interview for reporting.
+This project provides a Django REST framework API for user registration, login, portfolio management, and processing prompts using an NLP module.
 
-# Dataprep.py
-It writes the processed data into another file and performs further analysis such as year distribution. The `treat_data` function is used to extract structured information from each chunk
-1. Reads the input file `output.txt`.
-2. Processes the file using `process_interview_file`.
-3. Prints details about each interview chunk, including:
-   - Header.
-   - Content preview.
-   - Chunk length.
-4. Writes each chunk to a new file `midway.txt`.
-5. Prints year distribution across all interviews.
-6. Calls `treat_data` on each chunk for further data processing
--> *Additional key feature* - Structured Data Extraction
-    - Uses `treat_data` to convert raw text into structured JSON for better usability
+## Table of Contents
 
-# JstoRag.py
-[1. Reads the input file.
-2. Calls `split_interviews` to extract chunks.
-3. Validates the chunks using `validate_chunks`.
-4. Returns the processed chunks or an empty list in case of errors]
+- [Installation](#installation)
+- [Running the Server](#running-the-server)
+- [API Endpoints](#api-endpoints)
+  - [Register User](#register-user)
+  - [Login User](#login-user)
+  - [Get/Update Portfolio](#getupdate-portfolio)
+  - [Process Prompt](#process-prompt)
+- [License](#license)
 
-# midway.txt
-This document contains the details of all the interviews listed on the "Interview Diaries" site. Every interview includes pieces of information regarding the offering company, recruitment role, no. of rounds in the whole process, details regarding each round, and many more. When the user inputs some prompt to the LLM model, it returns sorted info  from this whole information, as per the specific prompt given by the user.
+## Installation
 
-# output.txt
-Similar to midway.txt
+1. **Clone the repository:**
 
-# rag.py
-This Python script facilitates document processing and integrates with ChromaDB, a vector database, for storage and query operations. It supports resetting the database, processing documents, splitting them into smaller chunks, and querying the database for specific information. The script is designed for extensibility and ease of use.
+   ```bash
+   git clone https://github.com/yourusername/django-drf-api.git
+   cd django-drf-api
+   ```
 
+2. **Create a virtual environment and activate it:**
 
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 
+3. **Install the required packages:**
 
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+4. **Apply migrations:**
+
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Create a superuser (optional, for admin access):**
+
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+## Running the Server
+
+To run the Django development server, use the following command:
+
+```bash
+python manage.py runserver
+```
+
+The server will start at `http://127.0.0.1:8000/`.
+
+## API Endpoints
+
+### Register User
+
+**Endpoint:** `/api/register/`
+**Method:** `POST`
+**Description:** Register a new user.
+
+**Request Body:**
+
+```json
+{
+  "username": "your_username",
+  "password": "your_password",
+  "email": "your_email@example.com"
+}
+```
+
+**Response:**
+
+```json
+{
+  "token": "user_token"
+}
+```
+
+### Login User
+
+**Endpoint:** `/api/login/`
+**Method:** `POST`
+**Description:** Login an existing user.
+
+**Request Body:**
+
+```json
+{
+  "username": "your_username",
+  "password": "your_password"
+}
+```
+
+**Response:**
+
+```json
+{
+  "token": "user_token"
+}
+```
+
+### Get/Update Portfolio
+
+**Endpoint:** `/api/portfolio/`
+**Method:** `GET` or `PUT`
+**Description:** Get or update the user's portfolio. Requires authentication.
+
+**Request Headers:**
+
+```http
+Authorization: Token user_token
+```
+
+**GET Response:**
+
+```json
+{
+  "username": "your_username",
+  "year": "your_year",
+  "branch": "your_branch",
+  "skills": ["skill1", "skill2"]
+}
+```
+
+**PUT Request Body:**
+
+```json
+{
+  "year": "new_year",
+  "branch": "new_branch",
+  "skills": ["new_skill1", "new_skill2"]
+}
+```
+
+**PUT Response:**
+
+```json
+{
+  "username": "your_username",
+  "year": "new_year",
+  "branch": "new_branch",
+  "skills": ["new_skill1", "new_skill2"]
+}
+```
+
+### Process Prompt
+
+**Endpoint:** `/api/process_prompt/`
+**Method:** `POST`
+**Description:** Process a prompt using the user's portfolio and the NLP module. Requires authentication.
+
+**Request Headers:**
+
+```http
+Authorization: Token user_token
+```
+
+**Request Body:**
+
+```json
+{
+  "prompt": "your_prompt"
+}
+```
+
+**Response:**
+
+```json
+{
+  "response": "NLP_response"
+}
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
