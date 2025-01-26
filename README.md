@@ -18,7 +18,7 @@ This project provides a Django REST framework API for user registration, login, 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/django-drf-api.git
+   git clone https://github.com/JRobinNTA/django-drf-api.git
    cd django-drf-api
    ```
 
